@@ -25,4 +25,4 @@ Maven
 ## 运行步骤
 1. 克隆仓库到本地
 ```bash
-git clone https://gitee.com/WBBZDNSZML/VirtualPet_12.git
+git clone https://github.com/wbbzdnszml/VirtualPet_12.git
