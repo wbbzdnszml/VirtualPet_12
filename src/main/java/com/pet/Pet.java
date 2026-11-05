@@ -41,9 +41,12 @@ public class Pet {
     // 洗澡
 
     public void bath() {
-    clean += 30;
-    checkBound();
-}
+        clean += 30;
+        happy += 20;
+        checkBoundary();
+        System.out.println("你的宠物洗香香啦！清洁度上升");
+    }
+
 
     public void bath() {
     clean += 30;
