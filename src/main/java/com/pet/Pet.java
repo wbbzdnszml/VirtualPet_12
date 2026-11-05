@@ -5,12 +5,15 @@ public class Pet {
     private int hunger;    // 饥饿 0吃饱，100极饿
     private int happy;     // 开心 0低落，100超开心
     private int health;    // 健康 0生病，100很健康
+    private int clean; // 干净度，0很脏，100干净
 
     public Pet(String name) {
         this.name = name;
         hunger = 40;
         happy = 60;
         health = 80;
+        clean = 60;
+
     }
 
     // 喂食
@@ -37,10 +40,10 @@ public class Pet {
 
     // 洗澡
     public void bath() {
-        health += 10;
-        happy += 10;
-        checkBoundary();
-    }
+    clean += 30;
+    checkBound();
+}
+
 
     // 时间流逝：每次做完一件事自动触发
     public void timePass() {
