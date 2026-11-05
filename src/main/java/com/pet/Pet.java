@@ -36,9 +36,8 @@ public class Pet {
     }
 
     // 洗澡
-    public void bath() {
-        health += 10;
-        happy += 10;
+    public void bath(){
+        happy += 20;
         checkBoundary();
     }
 
